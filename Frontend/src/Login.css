@@ -1,0 +1,63 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(121,9,51);
+    background: linear-gradient(90deg, rgba(121,9,51,1) 18%, rgba(2,0,36,1) 51%, rgba(0,212,255,1) 100%);    height: 100vh;
+    padding: 20px; /* Add some padding for smaller screens */
+}
+
+.login-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem; /* Larger border radius for a modern look */
+    width: 100%;
+    max-width: 400px; /* Limit the width for larger screens */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis */
+    text-align: center; /* Center text for a cleaner look */
+
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left; /* Increase spacing between form elements */
+}
+
+.input-full-width {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem; /* Add margin for better spacing */
+}
+
+.login-button {
+    background-color: #28a745;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.signup-button {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 1rem; /* Add margin for spacing */
+    text-decoration: none;
+}
+
+.signup-button:hover {
+    background-color: #f8f9fa; /* Light gray on hover */
+    color: #007bff; /* Blue text on hover */
+}
